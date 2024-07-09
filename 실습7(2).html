@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국내 도서</title>
+    <style>
+        body {font-family: Arial, sans-serif;}
+
+        h1 {text-align: center;margin-top: 20px;}
+
+        .book-list {list-style: none;padding: 0; margin: 20px auto; }
+
+        .book-item {position: relative;margin-bottom: 20px;padding: 10px;border: 1px solid #ddd;border-radius: 5px; 
+            background-color: whitesmoke;}
+
+
+        .book-info {position: absolute;top: 10px;left: 10px;right: 10px;bottom: 10px;background-color: wheat;
+            padding: 10px;display: none;flex-direction: column;}
+
+        .book-item:hover 
+        .book-info {display: flex;}
+
+        .book-info h2 {margin: 0 0 10px;font-size: 24;}
+
+        .book-info p {margin: 5px 0;}
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>국내 도서</h1>
+    <ul class="book-list">
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book1.jpg" alt="Book 1" class="book-cover">
+            <div class="book-info">
+                <h2>컴퓨터와 IT기술의 이해 [개정판-2판]</h2>
+                <p>저자: 최윤철, 임순범, 한탁돈</p>
+                <p>출판사: 생능출판사</p>
+                <p>가격: 27,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book2.jpg" alt="Book 2" class="book-cover">
+            <div class="book-info">
+                <h2>(알기 쉬운) 알고리즘</h2>
+                <p>저자: 양성봉</p>
+                <p>출판사: 생능출판사</p>
+                <p>가격: 24,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book3.jpg" alt="Book 2" class="book-cover">
+            <div class="book-info">
+                <h2>선형대수학 Express</h2>
+                <p>저자: 김대수</p>
+                <p>출판사: 생능출판사</p>
+                <p>가격: 27,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book4.jpg" alt="Book 2" class="book-cover">
+            <div class="book-info">
+                <h2>루비 프로그래밍 언어</h2>
+                <p>저자: 유하진, 김윤경, 김진석</p>
+                <p>출판사: 생능출판사</p>
+                <p>가격: 29,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book5.jpg" alt="Book 2" class="book-cover">
+            <div class="book-info">
+                <h2>소셜미디어의 이해와 활용</h2>
+                <p>저자: 임순범, 신은주</p>
+                <p>출판사: 생능출판사</p>
+                <p>가격: 21,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book6.jpg" alt="Book 2" class="book-cover">
+            <div class="book-info">
+                <h2>멀티미디어 배움터 2.0</h2>
+                <p>저자: 최윤철, 임순범</p>
+                <p>출판사: 생능출판사</p>
+                <p>가격: 25,000원</p>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
+

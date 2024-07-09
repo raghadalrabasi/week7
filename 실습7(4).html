@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Layout</title>
+    <style>
+        body {font-family: Arial, sans-serif;}
+
+        h1 {text-align: center;margin-top: 20px;}
+
+        .book-list {list-style: none; padding: 0; margin: 20px auto;max-width: 800px;}
+
+        .book-item {display: flex;align-items: flex-start; margin-bottom: 20px;padding: 10px;
+            background-color: whitesmoke;}
+
+        .book-item img {max-width: 100px;margin-right: 20px;}
+
+        .book-info {flex: 1;}
+
+        .book-info h2 {margin: 0 0 10px;font-size: 1.2em;}
+
+        .book-info p {margin: 5px 0;}
+    </style>
+</head>
+<body>
+    <h1>국내 도서</h1>
+    <ul class="book-list">
+        
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book1.jpg" alt="Book 1">
+            <div class="book-info">
+                <h2>컴퓨터와 IT기술의 이해 [개정판-2판]</h2>
+                <p>저자: 최윤철, 임순범, 한탁돈</p>
+                <p>생능출판사 | 27,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book2.jpg" alt="Book 2">
+            <div class="book-info">
+                <h2>(알기 쉬운) 알고리즘</h2>
+                <p>저자: 양성봉</p>
+                <p>생능출판사 | 24,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book3.jpg" alt="Book 3">
+            <div class="book-info">
+                <h2>선형대수학 Express</h2>
+                <p>저자: 김대수</p>
+                <p>생능출판사 | 27,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book4.jpg" alt="Book 4">
+            <div class="book-info">
+                <h2>루비 프로그래밍 언어</h2>
+                <p>저자: 유하진, 김윤경, 김진석</p>
+                <p>생능출판사 | 29,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book5.jpg" alt="Book 5">
+            <div class="book-info">
+                <h2>소셜미디어의 이해와 활용</h2>
+                <p>저자: 임순범, 신은주</p>
+                <p>생능출판사 | 21,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/book6.jpg" alt="Book 6">
+            <div class="book-info">
+                <h2>멀티미디어 배움터 2.0</h2>
+                <p>저자: 최윤철, 임순범</p>
+                <p>생능출판사 | 25,000원</p>
+            </div>
+        </li>
+    </ul>
+
+    <h1>해외 번역 도서</h1>
+    <ul class="book-list">
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/fbook1.jpg" alt="Book 1">
+            <div class="book-info">
+                <h2>네트워크 보안 에센셜(4판)</h2>
+                <p>저자: William Stallings</p>
+                <p>이재광, 전태일 공역<br/>
+                    생능출판사 | 30,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/fbook2.jpg" alt="Book 2">
+            <div class="book-info">
+                <h2>비즈니스 정보 시스템</h2>
+                <p>저자: P. Baltzan &amp; A. Phillips</p>
+                <p>고석하 외 공역<br/>
+                    생능출판사 | 28,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/fbook3.jpg" alt="Book 3">
+            <div class="book-info">
+                <h2>회로이론</h2>
+                <p>저자: Mitchel E. Schultz 2</p>
+                <p>김경화, 정성순외 공역<br/>
+                    생능출판사 | 35,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/fbook4.jpg" alt="Book 4">
+            <div class="book-info">
+                <h2>Big Java</h2>
+                <p>저자: Cay Horstmann<br/></p>
+                <p>오세만 외 공역<br/>
+                    생능출판사 | 32,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/fbook5.jpg" alt="Book 5">
+            <div class="book-info">
+                <h2>경영학의 이해 (9/e)</h2>
+                <p>저자: Nickels, McHugh, McHugh</p>
+                <p>권구혁 외 공역<br/>
+                    생능출판사 | 30,000원</p>
+            </div>
+        </li>
+        <li class="book-item">
+            <img src="http://webclass.me/html5_3e/ch07/images/fbook6.jpg" alt="Book 6">
+            <div class="book-info">
+                <h2>컴퓨터 배움터</h2>
+                <p>저자: Greg Anderson 외</p>
+                <p>나연묵 외 공역<br/>
+                    생능출판사 | 27,000원</p>
+            </div>
+        </li>
+    </ul>
+</body>
+</html>
+
